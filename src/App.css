@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+.calculator {
+  border: 2px solid #DCDCDC;
+  box-shadow: 0px 4px 9px #C6C6C6;
+  width: 33em;
+  height: 34em;
+  margin: 2em auto;
+  padding-top: 1.5em;
+}
+
+p {
+  color: #6F7079;
+  text-align: right;
+  margin-right: 1.5em;
+  margin-bottom: 0.5em;
+  font-size: 1.5em;
+}
+
+#answer-box {
+  text-align: right;
+  width: 85%;
+  height: 1.5em;
+  display: block;
+  margin: 0 auto;
+}
+
+input[type=number] {
+  font-size: 40px;
+  color: black;
+}
+
+.btns-container {
+  width: 85%;
+  margin: 1em 0.5%;
+  display: grid;
+  grid: repeat(4, 4em) / auto-flow 6.5em;
+  grid-gap: 0.7em;
+  padding-left: 2.3em;
+}
+
+.btns-container > .calc-btns {
+  border: 1.5px solid #DDDDDD;
+}
+
+.btn-value {
+  line-height: 50px;
+  font-size: 3em;
+}
+
+.numbers {
+  background-color: #F4F4F4;
+}
+
+.arithmetic {
+  background-color: #D4D4D4;
+}
+
+.equals {
+  background-color: #4B8DF8;
+  color: white;
+}
